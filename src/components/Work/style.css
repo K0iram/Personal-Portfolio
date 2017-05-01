@@ -1,0 +1,48 @@
+.section-title {
+  border-top: 2px solid black;
+}
+
+.section-title h5 {
+  font-weight: bolder;
+}
+
+.project-container {
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.project-container .project {
+  display: inline-block;
+  width: 360px;
+  margin: 30px 110px 0;
+}
+
+.project-container img {
+  width: 350px;
+  float: left;
+  margin-left: 5%;
+  border: 1px solid grey;
+}
+
+.project-container img:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+.project-container p {
+  width: 350px;
+  height: 215px;
+  padding: 0 0 0 0px;
+  margin-left: 5%;
+  float: left;
+  text-align: left;
+  overflow: scroll;
+}
+
+.project-container a {
+  font-size: 25px;
+}
+
+.project-container h5 {
+  padding-top: 15px;
+}

@@ -1,0 +1,25 @@
+.skills-section {
+  height: 400px;
+  background-color: #808080;
+}
+
+.skills {
+  width: 40%;
+  height: 320px;
+  margin: 0 auto;
+  line-height: 10px;
+  display: inline-block;
+  margin-bottom: 5%;
+  overflow: scroll;
+}
+
+.skills .icons {
+  width: 50px;
+  padding: 25px;
+  display: inline-block;
+  overflow: scroll;
+}
+
+.section-title h5 {
+  font-weight: bolder;
+}

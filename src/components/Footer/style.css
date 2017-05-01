@@ -1,0 +1,19 @@
+.bottom-nav h5 {
+  float: left;
+  margin: 5px 0 0 5px;
+}
+
+.bottom-nav ul {
+  padding: 10px 0 0 10px;
+  display: inline-block;
+  float: left;
+}
+
+.bottom-nav li {
+  padding: 5px;
+}
+
+.bottom-nav svg:hover {
+  background-color: #808080;
+  border-radius: 25px;
+}

@@ -1,0 +1,41 @@
+.social-container {
+  display: inline-block;
+  width: 30%;
+  height: 398px;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: white;
+  float: left;
+}
+
+.social-container ul {
+  padding-top: 10%;
+}
+
+.gh-icon:hover {
+  background-color: grey;
+  border-radius: 25px;
+}
+
+.link-icon:hover {
+  background-color: #0077b5;
+  border-radius: 4px;
+}
+
+.fb-icon:hover {
+  background-color: #3b5998;
+  border-radius: 4px;
+}
+
+.ig-icon:hover {
+  background: linear-gradient( #400080, transparent), 
+  linear-gradient( 
+   200deg, #d047d1, #ff0000,    #ffff00);
+  border-radius: 10px;
+}
+
+.sc-icon:hover {
+  background-color: #fc6822;
+  border-radius: 4px;
+}
