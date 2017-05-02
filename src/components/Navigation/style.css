@@ -4,19 +4,19 @@ nav {
 }
 
 nav ul {
-  overflow: auto;
   list-style-type: none;
   width: 75%;
   float: left;
+  display: inline-block;
 }
 
-nav li {
+/*nav li {
   height: 25px;
   float: left;
   margin-right: 0px;
   border-right: 1px solid #aaa;
   padding: 0 20px;
-}
+}*/
 
 nav li:last-child {
   border-right: none;
@@ -57,10 +57,19 @@ nav li.active a {
 .resume-link {
   float: right;
   width: 20%;
+  margin: -30px;
+}
+
+.resume-link ul {
+  padding: 20px;
 }
 
 .resume-link a {
   font-size: 14px;
-  display: flex;
+  display: block;
   color: #303030;
+}
+
+.resume-link svg {
+  margin-left: 10px;
 }
