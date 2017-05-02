@@ -2,8 +2,8 @@
   padding: 250px;
   height: 500px;
   background: linear-gradient(
-              rgba(0, 0, 0, 0.5),
-              rgba(0, 0, 0, 0.5)
+              rgba(0, 0, 0, 0.1),
+              rgba(0, 0, 0, 0.09)
               ),
   url('https://s3.amazonaws.com/mariosbucket/photodune-2705436-boston-waterfront-m1.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -20,7 +20,7 @@
 
 .title-box h1 {
   padding-top: 15px;
-  text-decoration: underline;
+  font-weight: bold;
   margin-bottom: 0px;
 }
 

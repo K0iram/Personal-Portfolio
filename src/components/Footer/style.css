@@ -1,19 +1,34 @@
-.bottom-nav h5 {
-  float: left;
+footer {
+	text-align: left;
+	height: 120px;
+}
+
+.contact-box {
+	padding: 20px;
+	width: 25%;
+}
+
+.contact-box h5 {
   margin: 5px 0 0 5px;
 }
 
-.bottom-nav ul {
-  padding: 10px 0 0 10px;
+.contact-box ul {
+	height: 20px;
+}
+
+
+.contact-box li {
+  padding: 15px;
   display: inline-block;
-  float: left;
 }
 
-.bottom-nav li {
-  padding: 5px;
-}
-
-.bottom-nav svg:hover {
+.contact-box svg:hover {
   background-color: #808080;
-  border-radius: 25px;
+  border-radius: 5px;
+}
+
+.tm-box {
+	margin: 0 auto;
+	text-align: right;
+	padding-top: 15px;
 }

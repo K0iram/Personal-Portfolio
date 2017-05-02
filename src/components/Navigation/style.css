@@ -47,7 +47,7 @@ nav li.active a {
 }
 
 .nav-bar {
-  background-color: rgba(176, 170, 170, 0.87);
+  background-color: rgba(176, 170, 170, 0.99);
   height: 60px;
   padding-top: 15px;
   position: fixed;

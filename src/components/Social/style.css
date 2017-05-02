@@ -12,30 +12,26 @@
 .social-container ul {
   padding-top: 10%;
 }
-
-.gh-icon:hover {
-  background-color: grey;
-  border-radius: 25px;
+.gh-icon {
+  fill: grey;
 }
 
-.link-icon:hover {
-  background-color: #0077b5;
-  border-radius: 4px;
+.link-icon {
+  fill: #0077b5;
 }
 
-.fb-icon:hover {
-  background-color: #3b5998;
-  border-radius: 4px;
+.fb-icon {
+  fill: #3b5998;
 }
 
-.ig-icon:hover {
-  background: linear-gradient( #400080, transparent), 
+.ig-icon {
+  fill: linear-gradient( #400080, transparent), 
   linear-gradient( 
    200deg, #d047d1, #ff0000,    #ffff00);
-  border-radius: 10px;
+  background: white;
+  padding: 1px;
 }
 
-.sc-icon:hover {
-  background-color: #fc6822;
-  border-radius: 4px;
+.sc-icon {
+  fill: #fc6822;
 }
