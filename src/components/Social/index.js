@@ -7,8 +7,8 @@ class Footer extends Component {
   render() {
     return (
     <div className="social-container">
+          <h5>Follow Me</h5>
           <ul>
-            <h5>Follow Me</h5>
             <li>
               <a href="https://www.github.com/mario7746" target="_blank">
               <svg className="gh-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">

@@ -11,12 +11,9 @@ class Work extends Component {
   render() {
     return (
       <div>
-        <div className="section-title">
-          <br/>
-          <h5>Projects</h5>
-        </div>
 
         <div className='project-container'>
+        <h5>Projects</h5>
           <div className="project">
             <h5>Wicked Mad Libs</h5>
             <a href="https://wicked-mad-libs.herokuapp.com" target='_blank'><img src={MadLibs} alt="Wicked Mad Libs"/></a>

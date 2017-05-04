@@ -14,7 +14,7 @@
 .project-container .project {
   display: inline-block;
   width: 360px;
-  margin: 30px 110px 0;
+  margin: 30px 30px 0 0;
 }
 
 .project-container img {
@@ -30,7 +30,6 @@
 }
 
 .project-container p {
-  width: 350px;
   height: 215px;
   padding: 0 0 0 0px;
   margin-left: 5%;
