@@ -1,6 +1,3 @@
-.section-title {
-  border-top: 2px solid black;
-}
 
 .section-title h5 {
   font-weight: bolder;
@@ -14,11 +11,10 @@
 .project-container .project {
   display: inline-block;
   width: 360px;
-  margin: 30px 110px 0;
 }
 
 .project-container img {
-  width: 350px;
+  width: 290px;
   float: left;
   margin-left: 5%;
   border: 1px solid grey;
@@ -30,13 +26,12 @@
 }
 
 .project-container p {
-  width: 350px;
-  height: 215px;
+  width: 290px;
+  height: 260px;
   padding: 0 0 0 0px;
   margin-left: 5%;
   float: left;
   text-align: left;
-  overflow: scroll;
 }
 
 .project-container a {
@@ -45,4 +40,30 @@
 
 .project-container h5 {
   padding-top: 15px;
+}
+
+@media(max-width: 400px) {
+  .project-container {
+    width: 115%;
+    margin: 0 auto;
+  }
+  .project-container img {
+  width: 290px;
+  float: left;
+  border: 1px solid grey;
+}
+
+.project-container img:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+.project-container p {
+  width: 290px;
+  height: 260px;
+  padding: 0 0 0 0px;
+  float: left;
+  text-align: left;
+  overflow: scroll;
+}
 }

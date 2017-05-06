@@ -32,3 +32,35 @@ footer {
 	text-align: center;
 	padding-top: 15px;
 }
+
+@media(max-width: 400px) {
+.contact-box {
+	padding: 20px;
+	width: 50%;
+}
+
+.contact-box h5 {
+  	margin: 5px 0 0 5px;
+}
+
+.contact-box ul {
+	height: 20px;
+	display: inline-flex;
+}
+
+
+.contact-box li {
+  padding: 15px;
+  display: block;
+}
+
+.contact-box svg:hover {
+  background-color: #808080;
+  border-radius: 5px;
+}
+
+.tm-box {
+
+}
+
+}

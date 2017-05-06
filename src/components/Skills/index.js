@@ -8,7 +8,7 @@ class Skills extends Component {
     return (
       <div className="skills-section">
       <div className="section-title">
-        <h5>A few of my skills</h5>
+        <h5>SKILLS</h5>
       </div>
       <div className="skills">
         <div>
