@@ -17,6 +17,7 @@ class AppLayout extends Component {
         <div className="App">
           
           <div className="main-content">
+            <Navigation />
             <Home />
             <Social />
             <Skills />

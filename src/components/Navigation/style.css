@@ -1,75 +1,25 @@
-nav {
-  margin: 10px;
-  background-color: white;
-}
-
-nav ul {
-  list-style-type: none;
-  width: 75%;
-  float: left;
-  display: inline-block;
-}
-
-/*nav li {
-  height: 25px;
-  float: left;
-  margin-right: 0px;
-  border-right: 1px solid #aaa;
-  padding: 0 20px;
-}*/
-
-nav li:last-child {
-  border-right: none;
-}
-
-nav li a {
-  text-decoration: none;
-  color: #ccc;
-  font: 25px/1 Helvetica, Verdana, sans-serif;
-  text-transform: uppercase;
-  cursor: pointer;
-  float: left;
-
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-nav li a:hover {
-  color: #666;
-}
-
-nav li.active a {
-  font-weight: bold;
-  color: #333;
-}
-
-.nav-bar {
-  background-color: rgba(176, 170, 170, 0.99);
-  height: 60px;
-  padding-top: 15px;
-  position: fixed;
+.nav-container {
   width: 100%;
+  min-width: 320px;
+  display: inline-block;
+  background-color: black;
 }
 
-.resume-link {
-  float: right;
-  width: 20%;
-  margin: -30px;
-}
-
-.resume-link ul {
-  padding: 20px;
+.nav-header {
+  color: #808080;
+  float: left;
+  padding: 10px 0 10px 15px;
+  font-size: 25px;
 }
 
 .resume-link a {
-  font-size: 14px;
-  display: block;
-  color: #303030;
+  float: right;
+  padding: 5px 15px 10px 0;
+  text-decoration: none;
+  color: #909090;
 }
 
 .resume-link svg {
-  margin-left: 10px;
+  fill: white;
 }
+
