@@ -1,16 +1,10 @@
 .nav-bar {
-  height: 60px;
-  padding-top: 15px;
-  position: fixed;
+  background: #fff;
   width: 100%;
+  padding: 20px;
+  width: calc(100% - 40px);
 }
 
-.resume-link {
-  float: right;
-  width: 20%;
-  margin: -30px;
-  padding: 10px;
-}
 
 .resume-link a {
   font-size: 14px;
@@ -20,24 +14,11 @@
 
 .resume-link svg {
   float: right;
-  margin-right: 20px;
-  padding: 10px;
 }
 
-.resume-link .cv {
-  visibility: hidden;
-}
 
 @media(max-width: 400px) {
-  .nav-bar {
-    width: 100%;
+  .resume-link svg {
+     margin-right: -65px;
   }
-
-  .resume-link .dl {
-    display: none;
-  }
-
-  .resume-link .cv {
-    display: block;
-}
 }
