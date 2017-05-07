@@ -10,8 +10,14 @@
 }
 
 .social-container ul {
-  padding-top: 10%;
+  padding-top: 25px;
 }
+
+.social-container h5 {
+  font-weight: bolder;
+  padding-bottom: 25px;
+}
+
 .gh-icon {
   fill: grey;
 }
@@ -39,6 +45,5 @@
 @media(max-width: 400px) {
   .social-containers {
     width: 50%;
-    height: 398px;
   }
 }
