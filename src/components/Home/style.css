@@ -2,16 +2,10 @@
   padding-top: 200px;
   height: 500px;
   margin: 0 auto;
-
-  background-image: url(https://s3.amazonaws.com/mariosbucket/photodune-2705436-boston-waterfront-m1.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 2000px 750px;
 }
 
 .title-box {
-  background-color: rgba(255, 255, 255, 0.66);
+  background-color: rgba(200, 200, 200, 0.66);
   width: 400px;
   margin: 0 auto;
   padding: 20px;
@@ -42,7 +36,7 @@
 
 .description {
   background-color: rgba(0, 0, 0, 0.1);
-  padding: 5%
+  padding-bottom: 5%
 }
 
 @media(max-width: 400px) {

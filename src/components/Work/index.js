@@ -10,7 +10,7 @@ class Work extends Component {
 
   render() {
     return (
-      <div>
+      <div className="work">
         <div className="section-title">
           <br/>
           <h5>Projects</h5>

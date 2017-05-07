@@ -7,13 +7,16 @@
 }
 
 .skills {
-  width: 40%;
   height: 320px;
   margin: 0 auto;
   line-height: 10px;
   display: inline-block;
   margin-bottom: 5%;
   overflow: scroll;
+}
+
+.icon-container {
+  width: 500px;
 }
 
 .skills .icons {
