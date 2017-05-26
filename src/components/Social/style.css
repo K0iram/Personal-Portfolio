@@ -43,7 +43,27 @@
 }
 
 @media(max-width: 400px) {
-  .social-containers {
-    width: 50%;
+  .social-container {
+    display: inline-block;
+    width: 115%;
+    height: 100px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: hidden;
+    background-color: white;
+    float: left;
+}
+
+  .social-container h5 {
+    padding-bottom: 0px;
+  }
+
+  .social-container ul {
+    padding: 0px;
+    display: inline-flex;
+  }
+
+  .social-container li {
+    padding: 0px 10px 0px 10px;
   }
 }

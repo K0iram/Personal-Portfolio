@@ -49,6 +49,18 @@
 }
 
   .skills {
-    width: 50%;
+    width: 100%;
   }
+
+  .icon-container {
+    width: 440px;
+  }
+
+  .skills .icons {
+    width: 45px;
+    padding: 15px;
+    display: inline-block;
+    overflow: visible;
+  }
+
 }
