@@ -34,6 +34,19 @@
   animation: blink 3s ease-in infinite;
 }
 
+.down-arrow svg {
+  padding: 5px;
+  background-size: 16px 16px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid;
+  border-radius: 50%;
+  display:inline-block;
+  fill: #fff;
+  
+  animation: blink 3s ease-in infinite;
+}
+
 
 @keyframes blink {
   from, to { opacity: 1 }
@@ -51,12 +64,18 @@
 
 .description h5 {
   font-weight: bolder;
+  padding: 20px;
 }
 
 .description {
   background-color: #232323;
-  padding-bottom: 5%;
   color: #fff;
+  height: 801px;
+}
+
+.description img {
+  width: 300px;
+  padding: 20px;
 }
 
 @media(max-width: 400px) {
@@ -82,6 +101,12 @@
     color: #2b2a2a;
   }
 
+  .description {
+    background-color: #232323;
+    width: 115%;
+    color: #fff;
+  }
+
   .description p {
     margin: 0 auto;
     padding: 5%;
@@ -94,9 +119,7 @@
     font-weight: bolder;
   }
 
-  .description {
-    background-color: #232323;
-    width: 115%;
-    color: #fff;
+  .description img {
+    width: 200px;
   }
 }

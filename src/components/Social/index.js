@@ -1,11 +1,19 @@
 import React, { Component } from 'react'
+import ScrollableAnchor, {configureAnchors} from 'react-scrollable-anchor'
+
 import './style.css'
 
 
 class Footer extends Component {
 
+  componentDidMount() {
+    configureAnchors({keepLastAnchorHash: false, scrollDuration: 1000})
+  }
+
   render() {
     return (
+    <div>
+    <ScrollableAnchor id="social">
     <div className="social-container">
       <h5>Follow Me</h5>
       <ul>
@@ -43,7 +51,7 @@ class Footer extends Component {
           <path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
           </svg></a>
         </li>
-        
+
         <li>
           <a href="https://soundcloud.com/mario-kennedy" target="_blank"><svg className="sc-icon"version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" color="#fc6822">
           <title>soundcloud2</title>
@@ -51,6 +59,8 @@ class Footer extends Component {
           </svg></a>
         </li>
       </ul>
+    </div>
+    </ScrollableAnchor>
     </div>
     )
   }
