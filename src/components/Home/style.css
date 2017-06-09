@@ -137,6 +137,7 @@
 
   .description img {
     width: 200px;
+    padding-bottom: 20px;
   }
 
   .down-arrow svg {
