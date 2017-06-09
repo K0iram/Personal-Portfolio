@@ -78,8 +78,23 @@
   padding: 20px;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 800px) {
   .title {
+    height: 785;
+  }
+
+  .description {
+    height: 1025px;
+  }
+
+  .description img {
+    padding: 60px;
+  }
+}
+
+@media(max-width: 425px) {
+  .title {
+  height: 615px;
   padding-top: 200px;
   margin: 0 auto;
   background-image: none;
@@ -105,6 +120,7 @@
     background-color: #232323;
     width: 115%;
     color: #fff;
+    height: 850px;
   }
 
   .description p {
@@ -121,5 +137,9 @@
 
   .description img {
     width: 200px;
+  }
+
+  .down-arrow svg {
+    margin-top: 20px;
   }
 }

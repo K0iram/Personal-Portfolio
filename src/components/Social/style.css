@@ -42,7 +42,7 @@
   fill: #fc6822;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 425px) {
   .social-container {
     display: inline-block;
     width: 115%;
