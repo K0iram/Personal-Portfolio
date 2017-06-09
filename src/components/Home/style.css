@@ -1,6 +1,6 @@
 .title {
   padding-top: 200px;
-  height: 525px;
+  height: 575px;
   margin: 0 auto;
 }
 
@@ -62,43 +62,41 @@
 @media(max-width: 400px) {
   .title {
   padding-top: 200px;
-  height: 525px;
   margin: 0 auto;
   background-image: none;
   background-color: rgba(255, 255, 255, 0.66);
-}
+  }
 
-.title-box {
-  margin: 0 0 0 15px;
-  padding: 10px;
-  width: 100%
-}
+  .title-box {
+    margin: 0 0 0 15px;
+    padding: 10px;
+    width: 100%
+  }
 
-.title-box h1 {
-  padding-top: 15px;
-  font-weight: bold;
-}
+  .title-box h1 {
+    padding-top: 15px;
+    font-weight: bold;
+  }
 
-.title-box h5 {
-  color: #2b2a2a;
-}
+  .title-box h5 {
+    color: #2b2a2a;
+  }
 
-.description p {
-  margin: 0 auto;
-  padding: 5%;
-  font-size: 16px;
-  line-height: 30px;
-  text-align: left;
-}
+  .description p {
+    margin: 0 auto;
+    padding: 5%;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+  }
 
-.description h5 {
-  font-weight: bolder;
-}
+  .description h5 {
+    font-weight: bolder;
+  }
 
-.description {
-  background-color: #232323;
-  width: 115%;
-  color: #fff;
-
-}
+  .description {
+    background-color: #232323;
+    width: 115%;
+    color: #fff;
+  }
 }

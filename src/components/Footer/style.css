@@ -1,6 +1,7 @@
 footer {
 	text-align: left;
 	height: 120px;
+	border-top: 1px solid #333;
 }
 
 .contact-box {
@@ -34,33 +35,31 @@ footer {
 }
 
 @media(max-width: 400px) {
-.contact-box {
-	padding: 20px;
-	width: 50%;
-}
+	footer {
+		width: 115%;
+	}
+	.contact-box {
+		padding: 20px;
+		width: 50%;
+	}
 
-.contact-box h5 {
-  	margin: 5px 0 0 5px;
-}
+	.contact-box h5 {
+	  	margin: 5px 0 0 5px;
+	}
 
-.contact-box ul {
-	height: 20px;
-	display: inline-flex;
-}
+	.contact-box ul {
+		height: 20px;
+		display: inline-flex;
+	}
 
 
-.contact-box li {
-  padding: 15px;
-  display: block;
-}
+	.contact-box li {
+	  padding: 15px;
+	  display: block;
+	}
 
-.contact-box svg:hover {
-  background-color: #808080;
-  border-radius: 5px;
-}
-
-.tm-box {
-
-}
-
+	.contact-box svg:hover {
+	  background-color: #808080;
+	  border-radius: 5px;
+	}
 }
