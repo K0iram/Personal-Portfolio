@@ -38,22 +38,35 @@
   height: 400px;
   width: 100%;
   }
+
+  .skills {
+   height: 300px;
+   margin: 0 auto;
+   display: inline-block;
+   display: flex;
+   max-width: 750px;
+   width: 100%;
+   flex-direction: column;
+   overflow: scroll;
+  }
 }
 
 @media(max-width: 425px) {
   .skills-section {
-  height: 400px;
-  width: 115%;
-}
+    height: 400px;
+    width: 115%;
+    overflow: scroll;
+  }
 
   .skills {
     width: 100%;
     overflow: hidden;
+    height: 250px;
   }
 
   .icon-container {
     width: 440px;
-    margin-left: 20px;
+    overflow: scroll;
   }
 
   .skills .icons {

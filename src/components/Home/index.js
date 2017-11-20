@@ -11,6 +11,21 @@ class Home extends Component {
     configureAnchors({keepLastAnchorHash: false, scrollDuration: 1000})
   }
 
+  state = {
+    userEmail: '',
+    textBody: ''
+  }
+
+  myEmail = 'mk@mariokennedy.com'
+
+  handleEmailInput = (e) => {
+    this.setState({userEmail: e.target.value})
+  }
+
+  handleTextChange = (e) => {
+    this.setState({textBody: e.target.value})
+  }
+
   render() {
     return (
       <div className="about">
