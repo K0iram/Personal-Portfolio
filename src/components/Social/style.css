@@ -1,4 +1,4 @@
-.social-container {
+/*.social-container {
   display: inline-block;
   width: 40%;
   height: 400px;
@@ -7,15 +7,17 @@
   border-bottom: 2px solid #232323;
   background-color: white;
   float: left;
-}
+}*/
 
 .social-container ul {
   padding-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .social-container h5 {
   font-weight: bolder;
-  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 .gh-icon {

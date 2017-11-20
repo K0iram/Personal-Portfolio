@@ -1,5 +1,5 @@
 .skills-section {
-  height: 400px;
+  height: 600px;
   width: 100%;
   border-top: 2px solid #232323;
   border-bottom: 2px solid #232323;
@@ -7,16 +7,18 @@
 }
 
 .skills {
-  height: 320px;
-  margin: 0 auto;
-  line-height: 10px;
-  display: inline-block;
-  margin-bottom: 5%;
-  overflow: scroll;
+ height: 450px;
+ margin: 0 auto;
+ display: inline-block;
+ display: flex;
+ max-width: 750px;
+ width: 100%;
+ flex-direction: column;
+ justify-content: center;
 }
 
 .icon-container {
-  width: 500px;
+  max-width: 895px;
 }
 
 .skills .icons {
@@ -35,10 +37,6 @@
   .skills-section {
   height: 400px;
   width: 100%;
-}
-
-  .skills {
-    width: 50%;
   }
 }
 
@@ -55,6 +53,7 @@
 
   .icon-container {
     width: 440px;
+    margin-left: 20px;
   }
 
   .skills .icons {
