@@ -11,7 +11,7 @@ class Navigation extends Component {
       <div className="nav-bar">
         <nav>
           <div className="resume-link">
-            <a data-tip="Download My Resume!" href="https://s3.amazonaws.com/mariosbucket/Dev.Resume.pdf" download="DEV.Resume.pdf" target="_top">
+            <a data-tip="Download My Resume!" href="https://s3.amazonaws.com/mariosbucket/mario_kennedy_resume.pdf" download="DEV.Resume.pdf" target="_top">
               <ReactTooltip place="bottom" type="dark" effect="float"/>
               <svg className="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
               <title>profile</title>
